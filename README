@@ -1,0 +1,12 @@
+# CS631 Midterm - ls(1) Implementation
+
+## Testing Procedure
+I tested my implementation of the ls command by comparing its output against the standard system ls.
+Specifically, I ran the following tests:
+1. Basic listing: `./ls` vs `ls`
+2. Long format: `./ls -l` vs `ls -l`
+3. Hidden files: `./ls -la` vs `ls -la`
+4. Sorting by time: `./ls -lt` vs `ls -lt`
+5. Sorting by size: `./ls -lS` vs `ls -lS`
+
+The output matched the expected behavior described in the provided ls.pdf manual.
